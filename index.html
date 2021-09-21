@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Calculator</title>
+</head>
+
+<body onmouseup="document.getElementById('display-text').focus()">
+
+    <div class="d-flex justify-content-center align-content-center mb-1" id="display">
+        <form id="submitOperation">
+            <input id="display-text" type="text" autofocus>
+        </form>
+    </div>
+    <div class="d-flex justify-content-center align-content-center" id="row1">
+        <button id="ac">AC</button>
+        <button id="c">C</button>
+        <button id="back">⌫</button>
+        <button id="divide">÷</button>
+    </div>
+    <div class="d-flex justify-content-center align-content-center" id="row2">
+        <button class="numeral" id="seven">7</button>
+        <button class="numeral" id="eight">8</button>
+        <button class="numeral" id="nine">9</button>
+        <button id="multiply">×</button>
+    </div>
+    <div class="d-flex justify-content-center align-content-center" id="row3">
+        <button class="numeral" id="four">4</button>
+        <button class="numeral" id="five">5</button>
+        <button class="numeral" id="six">6</button>
+        <button id="minus">-</button>
+    </div>
+    <div class="d-flex justify-content-center align-content-center" id="row4">
+        <button class="numeral" id="one">7</button>
+        <button class="numeral" id="two">8</button>
+        <button class="numeral" id="three">9</button>
+        <button id="plus">+</button>
+    </div>
+    <div class="d-flex justify-content-center align-content-center" id="row5">
+        <button class="disabled" id="block">⠀</button>
+        <button class="numeral" id="zero">0</button>
+        <button id="dot">.</button>
+        <button id="equals">=</button>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
