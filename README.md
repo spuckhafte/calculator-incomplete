@@ -1,2 +1,2 @@
-# calculator-incomplete
-Calculator using: HTML/CSS/JavaScript
+# Calculator
+Under developement
