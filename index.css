@@ -18,10 +18,6 @@
     background-color: rgba(230, 230, 230, 0.445);
 }
 
-input#display-text:focus {
-    outline-width: 0;
-}
-
 button {
     width: 80px;
     height: 80px;
