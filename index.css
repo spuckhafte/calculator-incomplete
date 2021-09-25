@@ -18,7 +18,7 @@
     background-color: rgba(230, 230, 230, 0.445);
 }
 
-input.middle:focus {
+input#display-text:focus {
     outline-width: 0;
 }
 
